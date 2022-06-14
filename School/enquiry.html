@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+        }
+
+        label {
+            display: inline-block;
+            width: 250px;
+            font-size: 20px;
+            color: #13276c;
+            background-color: #dcae1d;
+            margin: 2px;
+            padding: 10px;
+            border-radius: 20px;
+            border: 3px solid #13276c;
+        }
+
+        button {
+            border-radius: 10px;
+            width: 150px;
+            margin: 20px;
+            padding: 12px;
+            color: brown;
+            background-color: cornsilk;
+            margin-left: 30px;
+        }
+
+        button:hover {
+            background: #b8293d;
+            color: rgb(13, 13, 115);
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About us</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contactus.html">Contact</a>
+    </div>
+    <div>
+        <h1>Enquiry Form</h1>
+        <form>
+            <!--Name-->
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" placeholder="Name">
+            <br />
+            <!--Mobile Number-->
+            <label for="num">Enter your Mobile number</label>
+            <input type="number" id="num" placeholder="9846000000" minlength="10" maxlength="10">
+            <br />
+            <!--Email id-->
+            <label for="email">Enter your email id</label>
+            <input type="email" id="email" placeholder="example@dhjk.com">
+            <br />
+            <!--Gender-->
+            <label>Gender</label>
+
+            <input type="radio" id="gen1" name="gender">
+            <label style="width: 75px;" for="gen1">Male</label>
+            <input type="radio" id="gen2" name="gender">
+            <label style="width: 75px;" for="gen2">Female</label>
+            <br />
+            <label>Write your query!</label>
+            <textarea rows="5" cols="40" placeholder="Type here"></textarea>
+            <br />
+            <!--Submit button-->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    
+</body>
+
+</html>

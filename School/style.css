@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: #13276c;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2:hover{
+    font-size: 42px;
+}
+h2 {
+    font-size: 35px;
+    color: #dcae1d;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2:hover{
+    font-size: 38px;
+}
+
+h3 {
+    color: #dcae1d;
+    font-size: 32px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h3:hover{
+    font-size: 34px;
+}
+.aboutbanner {
+    width: 100%;
+}
+
+.aboutdescription,
+.facilitiesdesc,
+.admissiontext,
+.admissionlist,
+.mainleft {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 20px;
+    text-align: justify;
+}
+
+.facilitiesdesc {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-between;
+    clear: both;
+}
+
+.admissionbanner {
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+.facilimages {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.facilimages:hover {
+    width: 80%;
+    height: 80%;
+}
+
+.facilitiespic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.facilitycombined {
+    width: 48%;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.facleft {
+    float: left;
+    width: 60%;
+}
+
+.facright {
+    float: left;
+    width: 40%;
+}
+
+.gallerypic {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+
+.gallerypic:hover {
+    border: 3px solid #13276c;
+    border-radius: 20px;
+    width: 310px;
+}
+
+.gallerycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-between;
+
+}
+
+.contactimg {
+    float: left;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+.contactdetails {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+
+.footbar {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    position: relative;
+    padding: 1px;
+}
+
+.footbar a {
+    color: white;
+    text-decoration: none;
+}
+.footbar:hover{
+    height: 150px;
+    font-size: 20px;
+}
+.footlink{
+    padding: 4px 10px;
+}
+.footlink:hover{
+    font-size: 25px;
+    color:#dcae1d
+}
+.mainhead {
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 5px;
+    margin-top: 35px;
+    padding: 20px;
+    background-color: #dcae1d;
+    width: 100%;
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.mainhead :hover {
+    font-size: 64px;
+}
+
+.mainleft {
+    float: left;
+    width: 70%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+}
+
+.mainright {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 0%;
+}
+
+.mainpic {
+    display: block;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid;
+
+}
+
+.mainmain {
+    background-image: url(photos/School\ background\ pic2.jpg);
+    background-size: cover;
+
+}
+
+.mainvideo {
+    display: block;
+    text-align: center;
+    clear: both;
+}
+
+.mainaside {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    height: max-content;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #dcae1d;
+    color: #13276c;
+}
+.mainaside:after {
+    clear: both;
+}
+
+.mainasidel {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    border: #13276c 1px dashed;
+    border-bottom: 0ch;
+    border-right: 0ch;
+}
+
+.mainasider {
+    text-decoration: none;
+    background-color: #dcae1d;
+    color: #13276c;
+    float: right;
+    width: 50%;
+    padding: 20px;
+    border: #13276c 1px dashed;
+    border-bottom: 0ch;
+    border-left: 0ch;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    color: white;
+    background-color: #13276c;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+    padding: 6px;
+
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    margin: 30px;
+}
+
+.socialmediaicons {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+
+}
